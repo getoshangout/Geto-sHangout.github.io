@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geto's Hangout ° .</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #e6e6fa; /* Light lavender background */
+            margin: 0;
+        }
+
+        .card {
+            background-color: #ffffff; /* White background for the card */
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(128, 0, 128, 0.2); /* Purple shadow */
+            overflow: hidden;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(128, 0, 128, 0.3); /* Darker purple shadow on hover */
+        }
+
+        .card-header {
+            background: url('https://cdn.discordapp.com/attachments/1266356225801453669/1282667281352232960/image.png?ex=66e0307e&is=66dedefe&hm=b23ec44f09a63911a0e20d772618c877caf8b68c2abe1d160e682a6f232d1f85&') no-repeat center center; /* Retain the background image */
+            background-size: cover;
+            height: 120px;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-content h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #4b0082; /* Dark indigo */
+        }
+
+        .card-content p {
+            color: #6a0dad; /* Purple text color */
+            font-size: 14px;
+            margin: 10px 0;
+        }
+
+        .card-footer {
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .card-footer a {
+            text-decoration: none;
+            color: #6a0dad; /* Purple link color */
+            font-size: 18px;
+        }
+
+        .card-footer a:hover {
+            color: #4b0082; /* Darker indigo on hover */
+        }
+
+        .discord-icon {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header"></div>
+        <div class="card-content">
+            <h1>Geto's Hangout ° .</h1>
+            <p>Geto's Hangout ° . is a friendly, active community with a strong automod system to keep things safe and fun. Join us for regular Nitro and Robux giveaways and connect with awesome people!</p>
+        </div>
+        <div class="card-footer">
+            <a href="https://discord.gg/PeMQGz3h" target="_blank">
+                <img class="discord-icon" src="https://img.icons8.com/ios-filled/50/000000/discord-logo.png" alt="Discord Icon"/>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
